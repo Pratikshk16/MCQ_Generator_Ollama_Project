@@ -5,4 +5,6 @@ It generates high-quality MCQs from **PDF or TXT files** and optionally evaluate
 
 The entire system runs **locally** — no OpenAI API key or internet connection is required.
 
+
+**Currently in Development stage** 
 ---
