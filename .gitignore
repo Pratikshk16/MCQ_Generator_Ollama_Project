@@ -1,0 +1,78 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.env/
+.env.* 
+.venv/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+/.idea
+
+# Mac specific
+Icon?
+._*
+
+# Test / coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Notebook checkpoints / outputs
+*.nbconvert.ipynb
+*.sqlite3
+
+# Data and exported files (don't commit large data)
+data/
+*.csv
+*.xlsx
+*.pptx
+*.pdf
+
+# Model files / LLM caches (do NOT commit models)
+models/
+*.bin
+*.pt
+*.onnx
+.ollama/    # exclude ollama local models (if present)
+
+# Secrets
+secrets/
+*.pem
+*.key
+
+# Git LFS placeholder
+*.lfs
+
+# Other
+.env
